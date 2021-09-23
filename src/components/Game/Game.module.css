@@ -1,8 +1,33 @@
 .wrapper {
-  width: 100%;
-  min-height: 100vh;
-  background-color: #35353b;
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.gameInform {
+  color: #e4eaf0;
+  margin-left: 25px;
+  font-weight: 300;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.gameInform p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  margin-right: 15px;
+  background-color: transparent;
+  color: #e4eaf0;
+  border: 1px solid #e4eaf0;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 300ms ease-in;
+}
+
+.button:hover {
+  background-color: #8d9194;
+  transition: all 300ms ease-in;
 }

@@ -1,0 +1,48 @@
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+}
+
+.Modal {
+  margin: 0;
+  padding: 25px;
+  width: 70%;
+  background-color: #e5edf5;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.form {
+  font-size: 25px;
+}
+
+.input {
+  width: 250px;
+  height: 40px;
+  margin-left: 25px;
+  font-size: 25px;
+  padding-left: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.button {
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

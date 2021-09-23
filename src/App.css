@@ -2,5 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #35353b;
+  width: 100%;
+  min-height: 100vh;
 }

@@ -4,10 +4,9 @@ import './App.css';
 
 function App() {
   return (
-    <Game />
-    // <div className="App">
-      
-    // </div>
+    <div className="App">
+       <Game />
+    </div>
   );
 }
 
