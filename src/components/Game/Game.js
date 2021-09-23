@@ -43,7 +43,7 @@ const Game = () => {
     };
     
     const closeModal = () => {
-        setShowModal(false)
+        setShowModal(false);
     };
 
     const getPlayersNames = (name1, name2) => {
