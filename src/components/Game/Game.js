@@ -68,11 +68,13 @@ const Game = () => {
         setsScorePlayer1(0);
         setsScorePlayer1(0);
         setNewGame(false);
+        setXIsNext(true);
     };
 
     const hadleNewBattle = () => {
         setBoard(Array(9).fill(null));
         setNewGame(false);
+        setXIsNext(true);
     };
 
     return (
